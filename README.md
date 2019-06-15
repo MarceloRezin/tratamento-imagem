@@ -1,2 +1,8 @@
-# tratamento-imagem
-Manipulação de imagem para a matéria de computação gráfica
+# Manipulação de imagem - Computação Gráfica
+
+**Acesso:**  
+O projeto está disponível online [aqui](https://imagem.marcelorezin.com.br/);
+
+**Como executar:**  
+Faça o download projeto [aqui](https://github.com/MarceloRezin/tratamento-imagem/archive/master.zip);
+No diretório do projeto, abra o arquivo `index.html`
