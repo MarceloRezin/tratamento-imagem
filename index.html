@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Tratamento de Imagem</title>
+    </head>
+    <body style="flex-direction: column; display: flex">
+        <div style="display: flex; flex-direction: row; margin-bottom: 15px">
+            <button style="margin-right: 5px" onclick="grid()">GRID</button>
+            <button style="margin-right: 5px" onclick="grid4x4()">GRID 4x4</button>
+            <button style="margin-right: 5px" onclick="vermelho()">VERMELHO</button>
+            <button style="margin-right: 5px" onclick="verde()">VERDE</button>
+            <button style="margin-right: 5px" onclick="azul()">AZUL</button>
+            <button style="margin-right: 5px" onclick="selecionarNariz()">SELECIONAR NARIZ</button>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <div style="flex-direction: column; display: flex; margin-right: 10px">
+                <span>Original</span>
+                <canvas id="imgOriginal"></canvas>
+            </div>
+            <div style="flex-direction: column; display: flex">
+                <span>Efeito</span>
+                <canvas id="img"></canvas>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
